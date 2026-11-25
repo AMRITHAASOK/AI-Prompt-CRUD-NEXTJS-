@@ -1,0 +1,10 @@
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  // Keep Turbopack scoped to this app even when another lockfile exists above it.
+  turbopack: {
+    root: process.cwd(),
+  },
+};
+
+export default nextConfig;

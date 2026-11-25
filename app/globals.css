@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  font-family: "Lora", serif;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background-color: #f4f7ff;
+  color: #0f172a;
+}
+
+button,
+a,
+select {
+  -webkit-tap-highlight-color: transparent;
+}
